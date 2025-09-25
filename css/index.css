@@ -5,3 +5,25 @@ body
     grid-template-rows: auto 1fr auto;
     margin: 0;
 }
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.page-container
+{
+    min-width: 0;
+    flex-grow: 1;
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
