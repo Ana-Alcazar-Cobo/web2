@@ -6,6 +6,12 @@ body
     margin: 0;
 }
 
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+
 main
 {
     display: flex;
