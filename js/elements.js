@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    class customSpace extends HTMLElement
-    {
+    class customSpace extends HTMLElement{
         static get observedAttributes() {
             return ['height', 'width', 'background-color', 'display'];
         }
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.style.display = display;
 
             // If parent is a flex container, grow to fill available space
-            if (this.parentElement && getComputedStyle(this.parentElement).display === 'flex') {
+            if ((this.parentElement && getComputedStyle(this.parentElement).display === 'flex') && display === 'flex') {
                 this.style.flexGrow = '1';
                 this.style.flexShrink = '1';
                 this.style.flexBasis = 'auto';
