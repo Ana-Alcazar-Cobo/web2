@@ -49,4 +49,14 @@ main
     margin: 0;
     padding: 0;
     background-color: var(--background-light-3);
+    
+}
+
+.menu-item
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
 }
