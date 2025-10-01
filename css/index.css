@@ -59,13 +59,17 @@ main
 
 .menu-item
 {
+    border: none;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 2px;
-    border: none;
-    background-color: inherit;
+}
+
+.menu-item:hover
+{
+    background-color: brown;
 }
 
 .menu-displayer
