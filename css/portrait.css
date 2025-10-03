@@ -1,0 +1,52 @@
+@import "/css/general.css";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    margin-bottom: 0;
+}
+
+h2
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.data-photo
+{
+    height: 100%;
+}
+.photo
+{
+    height: 100%;
+    width: fit-content;
+}
+
+.data {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.data p {
+    flex: 1;
+    overflow-y: auto;
+    margin: 0;
+
+    text-align: justify;
+
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.data p::-webkit-scrollbar {
+    display: none;
+}
